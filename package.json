@@ -1,0 +1,17 @@
+{
+  "name": "md-preview",
+  "version": "1.0.0",
+  "description": "a simple markdown previewer for as a challenge for FCC's forntend certification ",
+  "dependencies": {
+    "marked": "^0.6.2"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html --public-url '.'"
+  },
+  "author": "abdellah hariti",
+  "license": "MIT"
+}
